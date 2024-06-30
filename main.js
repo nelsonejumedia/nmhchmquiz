@@ -455,15 +455,7 @@ const questions = [
             { text: "Volcanic rocks", correct: false },
         ]
     },
-    {
-        question: "What is the primary impurity in bauxite that must be removed to obtain pure aluminum oxide?",
-        answers: [
-            { text: "Silica", correct: false },
-            { text: "Iron oxides", correct: true },
-            { text: "Calcium carbonate", correct: false },
-            { text: "Magnesium oxide", correct: false },
-        ]
-    },
+    
     {
         question: "What is the process called when impurities are removed from bauxite to obtain pure aluminum oxide?",
         answers: [
@@ -590,26 +582,8 @@ const questions = [
         ]
     },
     
-    {
-        question: "What is the primary source of oxygen in the atmosphere?",
-        answers: [
-            { text: "Photosynthesis", correct: true },
-            { text: "Electrolysis of water", correct: false },
-            { text: "Fractional distillation of air", correct: false },
-            { text: "Combustion reactions", correct: false },
-        ]
-    },
     
-    {
-        question: "Which element belongs to Group 4 and is essential for life?",
-        answers: [
-            { text: "Oxygen", correct: false },
-            { text: "Carbon", correct: true },
-            { text: "Sodium", correct: false },
-            { text: "Aluminum", correct: false },
-        ]
-    },
-    
+   
     
     {
         question: "Which element forms a poisonous gas that competes with oxygen during respiration?",
