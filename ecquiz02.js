@@ -451,6 +451,16 @@ const questions = [
             { text: "4 pi C-C bonds, 1 sigma C-H bond", correct: false },
         ]
     },
+
+{
+        question: "Which of the following order is correct",
+        answers: [
+            { text: "K>L>M>N", correct: false },
+            { text: "K<L<N>M", correct: true },
+            { text: "N<M<L<K", correct: false },
+            { text: "None of the above", correct: false },
+        ]
+    },
     
  ];
         
