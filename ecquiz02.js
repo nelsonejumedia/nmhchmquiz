@@ -266,9 +266,9 @@ const questions = [
         question: "What is the shape of d orbitals?",
         answers: [
             { text: "Dumbbells", correct: false },
-            { text: "Double dumbbells", correct: false },
+            { text: "Double dumbbells", correct: true },
             { text: "Complex", correct: false },
-            { text: "Various shapes including cloverleaf", correct: true },
+            { text: "Various shapes including cloverleaf", correct: false },
         ]
     },
     {
@@ -361,16 +361,7 @@ const questions = [
             { text: "Omega bond", correct: false },
         ]
     },
-    {
-        question: "What kind of molecular orbital is formed when atomic orbitals combine to form a bonding interaction?",
-        answers: [
-            { text: "Anti-bonding molecular orbital", correct: false },
-            { text: "Bonding molecular orbital", correct: true },
-            { text: "Non-bonding molecular orbital", correct: false },
-            { text: "Free radical orbital", correct: false },
-        ]
-        
-    },
+    
     
     {
         question: "Which hybridization is associated with a trigonal planar structure?",
@@ -381,42 +372,10 @@ const questions = [
             { text: "sp³d", correct: false },
         ]
     },
-    {
-        question: "Which bond angle is associated with a linear structure?",
-        answers: [
-            { text: "90°", correct: false },
-            { text: "120°", correct: false },
-            { text: "109.5°", correct: false },
-            { text: "180°", correct: true },
-        ]
-    },
-    {
-        question: "What is another name for the Heisenberg uncertainty principle?",
-        answers: [
-            { text: "Determination principle", correct: false },
-            { text: "Certainty principle", correct: false },
-            { text: "Indeterminacy principle", correct: true },
-            { text: "Predictability principle", correct: false },
-        ]
-    },
-    {
-        question: "What type of bonds do free radicals typically have?",
-        answers: [
-            { text: "Sigma bonds", correct: false },
-            { text: "Pi bonds", correct: false },
-            { text: "Odd number valence electrons", correct: true },
-            { text: "Even number valence electrons", correct: false },
-        ]
-    },
-    {
-        question: "What describes an orbital where the probability of finding an electron is zero?",
-        answers: [
-            { text: "Nodal plane", correct: true },
-            { text: "Valence shell", correct: false },
-            { text: "Core electron", correct: false },
-            { text: "Photon shell", correct: false },
-        ]
-    },
+    
+    
+    
+    
     {
         question: "Which principle states that no orbital can contain more than two electrons?",
         answers: [
@@ -426,15 +385,7 @@ const questions = [
             { text: "Bohr principle", correct: false },
         ]
     },
-    {
-        question: "Which quantum number describes the spin of an electron?",
-        answers: [
-            { text: "Principal quantum number", correct: false },
-            { text: "Azimuthal quantum number", correct: false },
-            { text: "Magnetic quantum number", correct: false },
-            { text: "Spin quantum number", correct: true },
-        ]
-    },
+    
     {
         question: "How many sigma bonds are there in ethene (C2H4)?",
         answers: [
@@ -444,15 +395,7 @@ const questions = [
             { text: "7", correct: false },
         ]
     },
-    {
-        question: "Which molecular orbital is higher in energy?",
-        answers: [
-            { text: "Bonding molecular orbital", correct: false },
-            { text: "Anti-bonding molecular orbital", correct: true },
-            { text: "Non-bonding molecular orbital", correct: false },
-            { text: "Hybrid orbital", correct: false },
-        ]
-    },
+    
     {
         question: "Which principle is used to determine the order of filling electrons in orbitals?",
         answers: [
