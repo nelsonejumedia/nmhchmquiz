@@ -453,12 +453,12 @@ const questions = [
     },
 
 {
-        question: "Which of the following order is correct",
+        question: "How many Pi bonds are in CH₂=CH-CH=CH₂.",
         answers: [
-            { text: "K>L>M>N", correct: false },
-            { text: "K<L<N>M", correct: true },
-            { text: "N<M<L<K", correct: false },
-            { text: "None of the above", correct: false },
+            { text: "1", correct: false },
+            { text: "1, 3", correct: false },
+            { text: "2", correct: true },
+            { text: "4", correct: false },
         ]
     },
     
