@@ -38,10 +38,10 @@ const questions = [
     {
         question: "What is the size range of viruses?",
         answers: [
-            { text: "2nm to 300nm", correct: false },
-            { text: "2nm to 200nm", correct: false },
-            { text: "20nm to 300nm", correct: true},
-            { text: "20nm to 200nm", correct: false },
+            { text: "2 millimicron to 300 millimicron", correct: true },
+            { text: "2 millimicron to 200 millimicron", correct: false },
+            { text: "20 millimicron to 300 millimicron", correct: false},
+            { text: "20 millimicron to 200 millimicron", correct: false },
         ]
     },
     {
