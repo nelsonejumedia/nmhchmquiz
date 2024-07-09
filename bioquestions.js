@@ -240,10 +240,10 @@ const questions = [
     {
         question: "What type of mycelium do Deuteromycetes have?",
         answers: [
-            { text: "Septate and branched", correct: true },
+            { text: "Septate and branched", correct: false},
             { text: "Aseptate and coenocytic", correct: false },
             { text: "Septate and acoenocytic", correct: false },
-            { text: "Aseptate and branched", correct: false },
+            { text: "Aseptate and branched", correct: true},
         ]
     },
     {
